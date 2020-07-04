@@ -1,4 +1,4 @@
-# Homomorphic_Video_Feed
+# Homomorphic Video Feed
 Research prototype implemented in python
 
 
@@ -110,32 +110,4 @@ This information can be left unencrypted. This may be a problem if we seek to sh
 **STATISTICAL ANALYSIS ON ENCRYPTED DATA**
 
 The way in which the pixels are distributed in an image can be found by performing histogram analysis. The statistical properties of the encrypted image are given by this security analysis. A perfect encrypted image must have uniformly distributed histogram. Therefore by performing this analysis we can obtain a graph with streaks distributed randomly. By looking at this graph we can come into a conclusion that the applied algorithm encrypts the image completely or is there any part of the image which is not properly encrypted. It also shows the histogram of encrypted image where the pixel distribution is uniform. It is fairly uniform which makes it difficult to extract the pixels statistical nature of the plain image.
-
-Now we present two test images, corresponding encrypted images and histograms for all three channels for both encrypted and decrypted images
-
-…………………………………………………………………………………………………………………………………………………………
-
-![](RackMultipart20200704-4-1y7yl8i_html_9ed6650360093397.gif) ![](RackMultipart20200704-4-1y7yl8i_html_107bda0eb1b89d06.gif) ![](RackMultipart20200704-4-1y7yl8i_html_d78edf032869dac.gif) ![](RackMultipart20200704-4-1y7yl8i_html_7d5082c2dee0de22.gif)
-
-Image 1 blue channel green channel red channel
-
-![](RackMultipart20200704-4-1y7yl8i_html_ec88b98b3f20a699.gif) ![](RackMultipart20200704-4-1y7yl8i_html_2062d55c51020431.gif) ![](RackMultipart20200704-4-1y7yl8i_html_5989d21f5e37b773.gif) ![](RackMultipart20200704-4-1y7yl8i_html_ed054029de2224d2.gif)
-
-Image 1 encrypted blue channel green channel red channel
-
-…………………………………………………………………………………………………………………………………………………………..
-
-…………………………………………………………………………………………………………………………………………………………
-
-![](RackMultipart20200704-4-1y7yl8i_html_c0b5242f9e4ec029.jpg) ![](RackMultipart20200704-4-1y7yl8i_html_100364e74672f095.png) ![](RackMultipart20200704-4-1y7yl8i_html_43f1c58ec314d387.png) ![](RackMultipart20200704-4-1y7yl8i_html_7ebe4a537bf00f71.png)
-
-Image 2 blue channel green channel red channel
-
-![](RackMultipart20200704-4-1y7yl8i_html_48b966862a3b5e29.png) ![](RackMultipart20200704-4-1y7yl8i_html_a5540971ecf6a8a2.png) ![](RackMultipart20200704-4-1y7yl8i_html_c4754731d9cc791d.png) ![](RackMultipart20200704-4-1y7yl8i_html_6145bc31f9c13148.png)
-
-Image 2 encrypted blue channel green channel red channel
-
-…………………………………………………………………………………………………………………………………………………………..
-
-Hence by observing these histograms we observe perfect randomness, even distribution and no correlation.
 
